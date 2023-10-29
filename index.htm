@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- boxsize -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#Home" class="active">Home</a>
+        <a href="#About">About</a>
+        <a href="#Education">Education</a>
+        <a href="#Project">Projects</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="Home">
+      <div class="home-container">
+        <h3>Hello, It's Me</h3>
+        <h1>Sagar Chaudhary</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/sagar-chaudhary1/"
+            ><i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/CHAUDHARYSAGAR"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://leetcode.com/chaudharysagar/"><i class="cib cib-leetcode"></i></a>
+          <a href="https://www.hackerrank.com/profile/Sagarchaudhary51"><i class="cib cib-hackerrank"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <button type = "button" class="btn" onclick = "downloadFile()"> Download CV</button>
+</body>
+   <script>
+      function downloadFile() {
+         window.open("https://drive.google.com/file/d/1NG1RasVswOdtE4sZpX1klvOXCxSP92tF/view")
+      }
+   </script>
+      </div>
+      <div class="home-img">
+        <img src="bgimg.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="About">
+      <div class="about-img">
+        <img src="bgimg.png" alt="" />
+      </div>
+      <div class="about-container">
+        <h2>
+          <div class="heading">About <span>Me</span></div>
+        </h2>
+        <h3>Web Developer</h3>
+        <p>
+          I am a passionate web developer with expertise in HTML, CSS,
+          JavaScript, PHP, and MySQL database. I create engaging and interactive
+          web experiences, and I'm dedicated to crafting innovative solutions to
+          meet clients' needs. With a strong foundation in front-end and
+          back-end technologies, I strive to bring creativity and functionality
+          together to build user-friendly websites. I'm committed to continuous
+          learning and staying up-to-date with the latest web development
+          trends.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="education" id="Education">
+      <h2 class="heading"><span>Education</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Secondary</h3>
+          <p>Completed secondary from Vivekanand Inter College with 80.67% .</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Senior Secondary</h3>
+            <p>Completed Senior secondary from Vivekanand Inter College with 62.67% .</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Diploma</h3>
+            <p>Completed 3 year's Polytechnic diploma in Computer Science & Engineering from Govt. Polytechnic Bijnor with 78.67% .</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>B.Tech</h3>
+            <p>Pusuing Bachelor's in Computer Science & Engineering from ABES Engineering College with 67% .</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        
+      </div>
+    </section>
+    <section class="project" id="Project">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>ITMS Institute</h4>
+            <p>
+                A web where user can check all the details
+                about the institute and check available courses
+                through registration and many facilities.             
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Covid Awareness Website</h4>
+            <p>
+                A website which is useful for know about the
+                Covid DO's and DONT's. And find all the
+                information and contacts about help
+                 organizations.           
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Personal Portfolio Website</h4>
+            <p>
+                An good showcase of my skills and projects,
+                education capturing my unique creative
+                journey.          
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>College Searching Web</h4>
+            <p>
+              A Web where user can search best suit of colleges and see the top ranking colleges listed.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="Contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Id" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Sagar Chaudhary | All Right Reserved.</p>
+      </div>
+      <div class="footer-icon-top">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- coustom script -->
+    <script src="index.js"></script>
+  </body>
+</html>
