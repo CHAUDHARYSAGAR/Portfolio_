@@ -216,6 +216,7 @@
 
   .services-container .services-box {
     flex: 1 1 30rem;
+    margin: 1 rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
